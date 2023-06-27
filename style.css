@@ -1,0 +1,115 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: rgb(47, 49, 55);
+  /* color: rgb(58, 146, 223); */
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+
+.heading {
+  height: auto;
+  width: 80%;
+  margin: 4px auto;
+  text-align: center;
+  padding: 8px;
+  color: rgb(58, 146, 223);
+}
+.heading h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique 6deg;
+  text-decoration: wavy;
+  text-shadow: 1px 3px rgb(190, 173, 173);
+  margin-bottom: 16px;
+  border-bottom: 2px solid rgb(238, 42, 42);
+}
+
+.display-choices {
+  padding: 16px;
+  margin: 4px auto;
+  /* align-self: center; */
+  /* margin-top: 8px; */
+  font-size: 2.2rem;
+  color: azure;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(85, 66, 66);
+  width: 82vh;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.display-choices .computer {
+  /* background-color: azure; */
+}
+
+.foot-items {
+ align-self: center;
+ padding: 8px;
+}
+.foot-items .choice-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+.foot-items .choice-buttons buttons{
+    padding: 12px;
+    font-size: xx-large;
+}
+#rock {
+    font-size: large;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background: rgb(132, 158, 233);
+    box-shadow: 1px 3px rgb(54, 54, 85);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+#paper {
+    font-size: large;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background: rgb(132, 158, 233);
+    box-shadow: 1px 3px rgb(54, 54, 85);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+#scissor {
+    font-size: large;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background: rgb(132, 158, 233);
+    box-shadow: 1px 3px rgb(54, 54, 85);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.result-box{
+    align-self: center;
+    font: 400;
+    font-family: cursive;
+    background: rgb(88, 37, 45);
+    border-radius: 12px;
+    padding: 16px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    display: none;
+}
